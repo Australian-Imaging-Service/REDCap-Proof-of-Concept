@@ -1,4 +1,4 @@
-✅  **AIS/XNAT analysis and integration** ✅ 
+**AIS/XNAT analysis and integration**
 
 Each federated AIS/XNAT instance may operate a locally deployed analysis and integration workflow.
 
