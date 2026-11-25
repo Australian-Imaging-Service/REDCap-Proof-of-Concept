@@ -25,14 +25,3 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Build image
-        run: |
-          docker build \
-            -t ghcr.io/australian-imaging-service/redcap-proof-concept:latest \
-            .
-
-      - name: Push image
-        run: |
-          docker push \
-            ghcr.io/australian-imaging-service/acemid-interim-analysis:latest
